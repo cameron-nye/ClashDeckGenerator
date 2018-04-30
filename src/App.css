@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Luckiest+Guy|Yanone+Kaffeesatz|Yeon+Sung');
+
+
+main{
+  height: 100vh;
+  background-image: url('https://clashroyale.mundoperfecto.net/wp-content/uploads/2016/11/eltOwBn.jpg');
+  background-size: cover;
+  background-position: top center;
+  box-sizing: border-box;
+
+}
+
+header{
+  height: 12vh;
+  background-color: rgba(31, 31, 31, 0.89);
+  background-size: contain;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+h1{
+  padding-top: 14px;
+  font-size: 64px;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgb(255, 200, 49);
+}
+
+header>img{
+  height: 18vh;
+}
+
+.displayContainer{
+  background-color: rgba(255, 255, 255, 0.877);
+  height: 40vh;
+  width: 500px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding-top: 40px;
+
+}
+
+
+.listContainer{
+  height: 40vh;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.877);
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 40px;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+
+Button{
+  height: 33px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgb(255, 200, 49);
+  border: 2px solid black;
+  margin: 11px;
+  
+}
+
+Button:hover{
+  background-color: rgba(31, 31, 31, 0.89);
+  color: rgb(255, 200, 49)
+}
+
+
+.inputBox{
+  background-color: rgb(198, 223, 255);
+  width: 450px;
+  margin-left: 16px;
+  border-radius: 10px;
+  height: 25px;
+  
+}
+
+.favorites{
+  background-color: rgba(151, 151, 151, 0.356);
+  float: left;
+  border: 1px solid black ;
+  border-radius: 25px;
+  width: 200px;
+  margin-left: 150px;
+  margin-top: 8px;
+  padding: 8px;
+  align-items: center;
+  text-align: center
+  
+}
+
+.randomDeck{
+  padding: 3px;
+  text-align: center;
+  
+}
+
+.randomSplash{
+  background-color: darkturquoise;
+  height: 300px;
+}
+.random{
+  align-items: center;
+  justify-content: space-evenly
+}
+
+h2{
+  font-size: 34px;
+  color: rgba(36, 36, 36, 0.918);
+  font-family: 'Luckiest Guy', cursive;
+  padding-bottom: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h3{
+  color: rgba(36, 36, 36, 0.918);
+  font-size: 34px;
+  font-family: 'Luckiest Guy', cursive;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
